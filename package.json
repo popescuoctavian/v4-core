@@ -19,5 +19,9 @@
   "publishConfig": {
     "access": "public",
     "provenance": true
-  }
+  },
+  "dependencies": {
+    "hardhat": "^3.1.9"
+  },
+  "type": "module"
 }
