@@ -40,13 +40,14 @@ export default defineConfig({
     //! We don't have profiles for tests
     solidity: {
       ffi: true,
+      gasLimit: 300_000_000n,
       allowInternalExpectRevert: true,
       fuzz: {
         runs: 1000,
         seed: "0x4444",
       },
       fsPermissions: {
-        //! snapshots not yet released in HH
+        //! gas snapshots not yet released in HH
         // dangerouslyReadWriteDirectory: ["./snapshots"],
         readDirectory: ["./out", "./test/bin"],
       },
