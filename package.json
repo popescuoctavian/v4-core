@@ -21,7 +21,7 @@
     "provenance": true
   },
   "devDependencies": {
-    "hardhat": "^3.1.9"
+    "hardhat": "^3.1.10"
   },
   "type": "module"
 }
